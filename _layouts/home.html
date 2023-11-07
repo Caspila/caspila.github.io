@@ -1,0 +1,24 @@
+---
+layout: page
+title: About
+permalink: /about
+---
+
+{% for page in site.pages %}
+  {% if page.title == "About" %}
+    {{ page.content }}  
+  {% endif %}
+{% endfor %}
+
+<br/>
+<br/>
+<h2 style="text-align: center;margin: 0px auto;display; block;">Featured Projects</h2>
+<br/>
+
+<div class="featured-post-small-group">
+{% for post in paginator.posts %}
+  {% if post.featured %}
+    {% include featured-post-small.html %}
+  {% endif %}
+{% endfor %}
+</div>

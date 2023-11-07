@@ -1,0 +1,127 @@
+.featured-post {
+  height: 300px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(70%);
+}
+.featured-post:hover {
+  height: 300px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(0%);
+}
+.featured-post h2 {
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+}
+.featured-post h2 span {
+  display: inline-block;
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.featured-post span a {
+  color: white;
+}
+.featured-post h1 {
+  margin: 10px;
+}
+
+.featured-post-small-group {
+  color: white;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.featured-post-small {
+  float:left;
+  width: 30%;
+  height: 200px;
+  margin: 5px 10px 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(60%);
+}
+
+.featured-post-small:hover {
+  float:left;
+  width: 30%;
+  height: 200px;
+  margin: 5px 10px 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(0%);
+}
+
+.featured-post-small h2 {
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  filter: grayscale(0%);
+}
+.featured-post-small h2 span {
+  display: inline-block;
+  color: white;
+  font: bold 16px/36px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.featured-post-small span a {
+  color: white;
+}
+.featured-post-small h1 {
+  margin: 10px;
+}
+
+/*
+  Pagination
+*/
+
+.pagination {
+  text-align: center;
+}
+.pagination a {
+  text-decoration: none;
+}
+.pagination-button {
+  color: #999;
+  border: 1px solid #e0e0e0;
+  padding: 15px 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.pagination-active {
+  color: black;
+}
+.pagination-active:hover {
+  background-color: #e0e0e0;
+}
